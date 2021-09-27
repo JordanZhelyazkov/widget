@@ -36,3 +36,6 @@ html {
     }
   }
 }
+.products:after {
+   content: map-get($widget-sizes, medium );
+}
