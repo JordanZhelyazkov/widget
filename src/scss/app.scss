@@ -36,6 +36,6 @@ html {
     }
   }
 }
-.products:after {
+.card:after {
    content: map-get($widget-sizes, medium );
 }
