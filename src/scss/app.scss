@@ -36,6 +36,11 @@ html {
     }
   }
 }
-.content::content {
-   content: map-get($widget-sizes, small, medium, large);
+.products {
+  @debug map-get($widget-sizes , size );
 }
+
+
+
+
+
