@@ -36,6 +36,6 @@ html {
     }
   }
 }
-.card:after {
-   content: map-get($widget-sizes, medium );
+.content::content {
+   content: map-get($widget-sizes, small, medium, large);
 }
