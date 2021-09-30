@@ -30,15 +30,26 @@ html {
   }
   .card {
     margin-right: 30px;
+    font-size:  map-get($widget-sizes, small);
     .hot {
+      font-size: map-get($widget-sizes, large);
       color: orangered;
       font-weight: bold;
     }
   }
 }
-.products {
-  @debug map-get($widget-sizes , size );
-}
+// .card::before {
+//   content: map-get($widget-sizes, large);
+// }
+
+
+// .card::before {
+//   content: map-get($widget-sizes, small);
+// }
+
+
+
+
 
 
 
