@@ -25,27 +25,21 @@ html {
   justify-content: center;
   flex-flow: column;
   padding: 50px;
+  
   .products {
+    @include sizes;
     display: flex;
   }
   .card {
     margin-right: 30px;
-    font-size:  map-get($widget-sizes, small);
+    
     .hot {
-      font-size: map-get($widget-sizes, large);
+      
       color: orangered;
       font-weight: bold;
     }
   }
 }
-// .card::before {
-//   content: map-get($widget-sizes, large);
-// }
-
-
-// .card::before {
-//   content: map-get($widget-sizes, small);
-// }
 
 
 

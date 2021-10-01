@@ -47,3 +47,8 @@
   ::-moz-placeholder          {@content}
   :-ms-input-placeholder      {@content}
 }
+
+@mixin sizes {
+  font-size: map-get($widget-sizes, small);
+  font-size: map-get($widget-sizes, large);
+}
