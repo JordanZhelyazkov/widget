@@ -27,19 +27,24 @@ html {
   padding: 50px;
   
   .products {
-    @include sizes;
     display: flex;
   }
   .card {
-    margin-right: 30px;
     
+    margin-right: 30px;
     .hot {
-      
       color: orangered;
       font-weight: bold;
     }
   }
 }
+@each $size in $widget-sizes {
+  .card-#{$size} {
+    size: $size;
+  }
+}
+
+
 
 
 
