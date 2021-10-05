@@ -30,7 +30,6 @@ html {
     display: flex;
   }
   .card {
-    
     margin-right: 30px;
     .hot {
       color: orangered;
@@ -38,13 +37,11 @@ html {
     }
   }
 }
-@each $size in $widget-sizes {
-  .card-#{$size} {
-    size: $size;
-  }
+
+.content {
+  size: map-get($widget-sizes, 'small');
+  size: map-get($widget-sizes, 'large');
 }
-
-
 
 
 

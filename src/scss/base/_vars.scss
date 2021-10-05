@@ -4,7 +4,9 @@
 
 $primary: #0c4bfa;
 
-$widget-sizes: ('60px', '100px', '120px');
+$widget-sizes: (
+    'small' : 60,
+    'large' : 120);
 
 
 
